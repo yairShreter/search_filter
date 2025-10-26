@@ -1,5 +1,6 @@
 import LiveSearchFilter from './components/LiveSearchFilter'
 import LiveSearchFilterSolution from './components/LiveSearchFilterSolution'
+import LiveSearchSimpleSolution from './components/LiveSearchSimpleSolution'
 import './App.css'
 
 // Sample data for the interview task
@@ -25,7 +26,7 @@ function App() {
       </header>
       
       <main className="app-main">
-        <LiveSearchFilterSolution data={sampleData} />
+        <LiveSearchSimpleSolution data={sampleData} />
       </main>
     </div>
   )
